@@ -6,7 +6,7 @@
 # If n is even and greater than , print Not Weird
 
 #!/bin/python3
-#solution 1 #this solution is not working
+#solution 1 #this solution is not working #Learning Git
 import math
 import os
 import random
