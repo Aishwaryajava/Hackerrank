@@ -1,33 +1,17 @@
-#The provided code stub reads and integer,n , from STDIN. For all non-negative integers , print .
+Given an integer,n, print its first 10 multiples. Each multiple n x i (where 1<i<10) should be printed on a new line in the form: n x i = result.
 
-Example
 
-The list of non-negative integers that are less than  is . Print the square of each number on a separate line.
+#!/bin/python3
 
-# solution 1 
+import math
+import os
+import random
+import re
+import sys
+
+
+
 if __name__ == '__main__':
-    n = int(input())
-
-def square(n):
-  return n * n
-
-# Create a range of numbers from 0 to 5
-numbers = range(0,n)
-
-# Square each number in the range and print the result
-for number in numbers:
-  print(square(number))
-
-#solution 2  List Comprehension method
-if __name__ == '__main__':
-    n = int(input())
-    squares = [n**2 for n in range(n) if n >= 0]
-    print(*squares, sep='\n')
-
-#solution 3 
-for i in range(0,n):
-    print(i*i)
-      
-
-
-
+    n = int(input().strip())
+    for i in range(1,11):
+        print (n, 'x', i, '=',n*i)
