@@ -1,19 +1,19 @@
 # Intuition
-<!-- Describe your first thoughts on how to solve this problem. -->
-I thought of using a predefined function to check the reverse string with the original string.
+# <!-- Describe your first thoughts on how to solve this problem. -->
+# I thought of using a predefined function to check the reverse string with the original string.
 
-# Approach
-<!-- Describe your approach to solving the problem. -->
-1.convert the integer to the string.
-2.Reverse the string using the predefined function ‘ ‘.join(reversed(string))
-3.Check if the converted string and reversed string are the same.
+# # Approach
+# <!-- Describe your approach to solving the problem. -->
+# 1.convert the integer to the string.
+# 2.Reverse the string using the predefined function ‘ ‘.join(reversed(string))
+# 3.Check if the converted string and reversed string are the same.
 
-# Complexity
-- Time complexity:
-O(n)
+# # Complexity
+# - Time complexity:
+# O(n)
 
-- Space complexity:
-O(n)
+# - Space complexity:
+# O(n)
 
 Code 
 class Solution:
