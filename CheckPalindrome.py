@@ -15,7 +15,7 @@
 # - Space complexity:
 # O(n)
 
-Code 
+#Code 
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         # converting integer to string 
